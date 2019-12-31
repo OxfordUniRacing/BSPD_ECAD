@@ -1,4 +1,4 @@
-update=Thu 14 Nov 2019 20:52:06 GMT
+update=Tue 31 Dec 2019 17:11:17 GMT
 version=1
 last_client=kicad
 [general]
@@ -242,7 +242,7 @@ dPairGap=0.2032
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=our.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

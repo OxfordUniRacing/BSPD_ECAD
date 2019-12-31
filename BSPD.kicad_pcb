@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5)
 
   (general
     (thickness 1.6)
@@ -831,7 +831,7 @@
     )
   )
 
-  (module Package_TO_SOT_SMD:SOT-223 (layer F.Cu) (tedit 5DCD6BF8) (tstamp 5DCF6BE3)
+  (module Package_TO_SOT_SMD:SOT-223 (layer F.Cu) (tedit 5DCD6BF8) (tstamp 5E0B96D7)
     (at 115.57 71.12 180)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
@@ -840,7 +840,7 @@
     (fp_text reference U1 (at 0 4.445) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value AZ1117-5.0 (at 0 4.5) (layer F.Fab)
+    (fp_text value ZLDO1117G50 (at 0 4.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -859,8 +859,7 @@
     (fp_line (start -4.1 -3.41) (end 1.91 -3.41) (layer F.SilkS) (width 0.12))
     (fp_line (start -1.85 3.35) (end 1.85 3.35) (layer F.Fab) (width 0.1))
     (fp_line (start 1.85 -3.35) (end 1.85 3.35) (layer F.Fab) (width 0.1))
-    (pad 4 smd rect (at 3.15 0 180) (size 2 3.8) (layers F.Cu F.Paste F.Mask)
-      (net 3 +5V))
+    (pad 4 smd rect (at 3.15 0 180) (size 2 3.8) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at -3.15 0 180) (size 2 1.5) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
     (pad 3 smd rect (at -3.15 2.3 180) (size 2 1.5) (layers F.Cu F.Paste F.Mask)
@@ -1142,7 +1141,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5DCEA705)
+  (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5E0B94D6)
     (at 107.95 71.12 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -1286,7 +1285,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5DCF2E23)
+  (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5E0B9558)
     (at 107.95 73.66 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -1882,7 +1881,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5DCF6153)
+  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5E0B9420)
     (at 106.68 67.31 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
@@ -1891,7 +1890,7 @@
     (fp_text reference C7 (at 0 2.032 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10uF (at -0.635 2.54 180) (layer F.Fab)
+    (fp_text value 10uF (at 1.81 0.02 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -2093,7 +2092,7 @@
     (fp_text reference C4 (at 0 -2.032 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1uF (at 0 2.54 180) (layer F.Fab)
+    (fp_text value 1uF (at 0.03 2.13 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
